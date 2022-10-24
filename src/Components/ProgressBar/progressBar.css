@@ -1,0 +1,39 @@
+.pb-wrapper {
+    margin: 50px;
+}
+
+.pb-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    column-gap: 1px;
+    justify-content: space-between;
+}
+
+.single-bar {
+    width: 7px;
+    background-color: green;
+    border-radius: 2px;
+}
+
+ .stats-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    max-width: 100%;
+}
+
+ .single-stats {
+    display: flex;
+    align-items: center;
+}
+
+ .color-indicator {
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+

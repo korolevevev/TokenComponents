@@ -1,0 +1,114 @@
+.tableContainer {
+    padding: 50px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead tr{
+    background-color: white;
+}
+
+td, th {
+    padding: 15px;
+    align-items: center;
+}
+
+tr td:first-child {
+    display: flex;
+    height: 50px;
+}
+
+tr td {
+    font-weight: bold;
+}
+
+.col-header {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.dropdown-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-arch {
+    transform: rotate(270deg);
+    width: 8px;
+    height: 10px;
+    margin-right: 8px;
+}
+
+.chosen-filter {
+    background-color: #939598;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 30px;
+    background-color: #f1f1f1;
+    min-width: 30px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.show {
+    display: flex;
+}
+
+.dropdown-point {
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.dropdown-point:hover {
+    background-color: lightgray;
+}
+
+.dropdown-point:last-child {
+    border-bottom: none;
+}
+
+tbody tr {
+    border-bottom: 10px solid white;
+    padding: 10px;
+}
+
+.status-circle {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.buy-button {
+    border: 1px solid #CA1A8E;
+    border-radius: 7px;
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+    color: #CA1A8E;
+    background-color: transparent;
+}
+
+.buy-button:hover {
+    background-color: #CA1A8E;
+    color: white;
+}
